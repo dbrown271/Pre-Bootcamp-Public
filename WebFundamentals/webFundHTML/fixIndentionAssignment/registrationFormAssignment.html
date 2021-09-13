@@ -10,13 +10,13 @@
 <body>
     <form action="/process" method="post">
         <div>
-            <label>First Name *: </label>
-            <input type="text" name="firstName" 
+            <label for="firstName">First Name: * </label>
+            <input type="text" name="firstName" id="firstName" 
             placeholder="Your First Name..." >
         </div>
         <div>
-            <label>Last Name *: </label>
-            <input type="text" name="lastName" 
+            <label for="lastName">Last Name: * </label>
+            <input type="text" name="lastName" id="lastName"
             placeholder="Your Last Name..." >
         </div>
         <div>
@@ -43,13 +43,13 @@
             <label>Gender Identity: </label>
             <div>
                 <input type="radio" name="genderIdentity" value="Male" id="Male">
-                <label>Male</label>
+                <label for="male">Male</label>
                 <input type="radio" name="genderIdentity" value="Female" id="Female">
-                <label>Female</label>
+                <label for="female">Female</label>
                 <input type="radio" name="genderIdentity" value="Non-Binary" id="Non-Binary">
-                <label>Non-Binary</label>
+                <label for="non-binary">Non-Binary</label>
                 <input type="radio" name="genderIdentity" value="I Prefer Not To Answer" id="I Prefer Not To Answer">
-                <label>I Prefer Not To Answer</label>
+                <label for="i prefer not to answer">I Prefer Not To Answer</label>
             </div>
         <div>
         <label>A Short Description About Myself: </label>
